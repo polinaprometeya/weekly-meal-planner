@@ -1,0 +1,95 @@
+%% Weekly Meal Planner — Entity Relationship Diagram
+%% Render: VS Code Mermaid extension, GitHub, or https://mermaid.live
+
+erDiagram
+    users ||--o{ meal_plans : owns
+
+    meal_plans ||--|{ meal_plan_entries : contains
+    recipes ||--o{ meal_plan_entries : scheduled_on
+
+    recipes ||--|{ recipe_ingredients : has
+    staples ||--o{ recipe_ingredients : used_in
+
+    staples ||--o{ food_pack_norms : typical_pack
+
+    users {
+        bigint id PK
+        string name
+        string email UK
+        string password
+        timestamp email_verified_at
+        timestamps created_at_updated_at
+    }
+
+    staples {
+        bigint id PK
+        string slug UK
+        string name_da
+        string category
+        string default_unit
+        text notes
+        timestamps created_at_updated_at
+    }
+
+    recipes {
+        bigint id PK
+        string slug UK
+        string name_da
+        int servings_default
+        text instructions
+        text source_instructions_raw
+        string source_type
+        string source_title
+        string source_url
+        int publication_year
+        string license
+        string attribution_text
+        int prep_minutes
+        int cook_minutes
+        json tags
+        boolean is_reviewed
+        timestamp reviewed_at
+        timestamps created_at_updated_at
+    }
+
+    recipe_ingredients {
+        bigint id PK
+        bigint recipe_id FK
+        bigint staple_id FK
+        decimal amount
+        string unit
+        string note
+        int sort_order
+        timestamps created_at_updated_at
+    }
+
+    food_pack_norms {
+        bigint id PK
+        bigint staple_id FK
+        decimal pack_amount
+        string pack_unit
+        string label_da
+        string source
+        string confidence
+        date last_verified
+        text notes
+        timestamps created_at_updated_at
+    }
+
+    meal_plans {
+        bigint id PK
+        bigint user_id FK
+        string name
+        date start_date
+        timestamps created_at_updated_at
+    }
+
+    meal_plan_entries {
+        bigint id PK
+        bigint meal_plan_id FK
+        bigint recipe_id FK
+        int day_of_week
+        string meal_slot
+        int servings_override
+        timestamps created_at_updated_at
+    }
