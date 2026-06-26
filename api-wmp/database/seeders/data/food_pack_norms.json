@@ -1,0 +1,74 @@
+[
+  {
+    "staple_slug": "milk-whole",
+    "pack_amount": 1,
+    "pack_unit": "L",
+    "label_da": "Standard mælk 1 L",
+    "source": "manual",
+    "confidence": "high"
+  },
+  {
+    "staple_slug": "beef-mince",
+    "pack_amount": 500,
+    "pack_unit": "g",
+    "label_da": "Hakket oksekød 500 g",
+    "source": "manual",
+    "confidence": "high"
+  },
+  {
+    "staple_slug": "minced-pork",
+    "pack_amount": 500,
+    "pack_unit": "g",
+    "label_da": "Hakket svinekød 500 g",
+    "source": "manual",
+    "confidence": "high"
+  },
+  {
+    "staple_slug": "butter",
+    "pack_amount": 200,
+    "pack_unit": "g",
+    "label_da": "Smør 200 g",
+    "source": "manual",
+    "confidence": "high"
+  },
+  {
+    "staple_slug": "egg",
+    "pack_amount": 6,
+    "pack_unit": "stk",
+    "label_da": "Æg 6 stk",
+    "source": "manual",
+    "confidence": "high"
+  },
+  {
+    "staple_slug": "pasta",
+    "pack_amount": 500,
+    "pack_unit": "g",
+    "label_da": "Pasta 500 g",
+    "source": "manual",
+    "confidence": "high"
+  },
+  {
+    "staple_slug": "chicken-breast",
+    "pack_amount": 500,
+    "pack_unit": "g",
+    "label_da": "Kyllingebryst 500 g",
+    "source": "manual",
+    "confidence": "high"
+  },
+  {
+    "staple_slug": "rice",
+    "pack_amount": 1000,
+    "pack_unit": "g",
+    "label_da": "Ris 1 kg",
+    "source": "manual",
+    "confidence": "high"
+  },
+  {
+    "staple_slug": "tomato-passata",
+    "pack_amount": 400,
+    "pack_unit": "g",
+    "label_da": "Tomatpassata 400 g",
+    "source": "manual",
+    "confidence": "high"
+  }
+]

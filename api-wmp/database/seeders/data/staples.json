@@ -1,0 +1,99 @@
+[
+  {
+    "slug": "milk-whole",
+    "name_da": "Mælk",
+    "category": "dairy",
+    "default_unit": "ml",
+    "notes": "Sød/sødmælk eller letmælk"
+  },
+  {
+    "slug": "minced-pork",
+    "name_da": "Hakket svinekød",
+    "category": "meat",
+    "default_unit": "g"
+  },
+  {
+    "slug": "onion",
+    "name_da": "Løg",
+    "category": "produce",
+    "default_unit": "stk"
+  },
+  {
+    "slug": "curry-powder",
+    "name_da": "Karry",
+    "category": "spice",
+    "default_unit": "tsk"
+  },
+  {
+    "slug": "butter",
+    "name_da": "Smør",
+    "category": "dairy",
+    "default_unit": "g"
+  },
+  {
+    "slug": "flour",
+    "name_da": "Hvedemel",
+    "category": "pantry",
+    "default_unit": "g"
+  },
+  {
+    "slug": "egg",
+    "name_da": "Æg",
+    "category": "dairy",
+    "default_unit": "stk"
+  },
+  {
+    "slug": "beef-mince",
+    "name_da": "Hakket oksekød",
+    "category": "meat",
+    "default_unit": "g"
+  },
+  {
+    "slug": "pasta",
+    "name_da": "Pasta",
+    "category": "pantry",
+    "default_unit": "g"
+  },
+  {
+    "slug": "tomato-passata",
+    "name_da": "Tomatpassata",
+    "category": "pantry",
+    "default_unit": "g"
+  },
+  {
+    "slug": "chicken-breast",
+    "name_da": "Kyllingebryst",
+    "category": "meat",
+    "default_unit": "g"
+  },
+  {
+    "slug": "rice",
+    "name_da": "Ris",
+    "category": "pantry",
+    "default_unit": "g"
+  },
+  {
+    "slug": "carrot",
+    "name_da": "Gulerod",
+    "category": "produce",
+    "default_unit": "stk"
+  },
+  {
+    "slug": "potato",
+    "name_da": "Kartoffel",
+    "category": "produce",
+    "default_unit": "g"
+  },
+  {
+    "slug": "salt",
+    "name_da": "Salt",
+    "category": "spice",
+    "default_unit": "tsk"
+  },
+  {
+    "slug": "pepper",
+    "name_da": "Peber",
+    "category": "spice",
+    "default_unit": "tsk"
+  }
+]
